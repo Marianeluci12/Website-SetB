@@ -1,0 +1,41 @@
+body{
+    background-image: url(img/bg-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.fpart{
+    background:linear-gradient( violet, lightsalmon, lightseagreen);
+    width:632px;
+    height:632px;
+    margin-left: 45rem;
+    
+}
+
+.student{
+    font-family:cursive;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color:white;
+    text-align: center;
+    margin-top: 13rem;
+    position:absolute;
+    margin-left: 5rem;
+}
+.btn{
+    width: 130px;
+    height:40px;
+    font-size: 0.8rem;
+    margin-top: 20rem;
+    margin-left: 17rem;
+    position:absolute;
+    font-size: 0.8rem;
+    border: 2px solid;
+    transition: 1s;
+    border-radius: 25px;
+    background-color:rgb(109, 196, 247);
+}
+ .btn:hover{
+     background-color: white;
+ }
